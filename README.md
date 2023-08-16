@@ -1,1 +1,3 @@
-# 202308_react3
+# Curso de React.js Manejo Profesional del Estado
+
+Proyecto de prácticas
