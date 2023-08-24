@@ -2,14 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 import { UseState } from './useState';
-import { ClassState } from './ClassState';
+//import { ClassState } from './ClassState';
+import { UseReducer } from './useReducer';
 
 
 function App() {
   return (
     <div className="App">
-      <UseState name="UseState" />
-      <ClassState name="ClassState" />
+      <UseState name="UseState" /> 
+      <UseReducer name="UseReducer" />
+      {/* <ClassState name="ClassState" /> */}
     </div>
   );
 }
